@@ -13,7 +13,9 @@ function App() {
 
 
   return (
+    
     <div className="container">
+      <h1>Games</h1>
       <div className="head">
            <label htmlFor='term'> Guess the number between 1 to 10 </label>
       </div>
