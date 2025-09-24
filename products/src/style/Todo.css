@@ -1,0 +1,24 @@
+body{
+    background-color: darksalmon;
+}
+
+/* whenever using margin it will apply for div fully not only textbox so we are using attribute selector
+input[type="text"] #task-box{} */
+.todo-container
+{
+   display: flex;
+   gap: 10px;
+}
+
+input[type="text"]#task-box {
+ margin-bottom: 10rem;
+ border-radius: 3px;
+ padding:5px;
+ font-size: 1.5rem;
+}
+
+#add-btn{
+    margin-bottom: 10rem;
+    padding: 5px;
+    border-radius: 3px;
+}
