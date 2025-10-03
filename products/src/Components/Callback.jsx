@@ -1,6 +1,7 @@
 function Callback(){
 
-    //function passing as a paramter to another funtion is callback function
+    //function passing as a paramter to another function is callback function
+
     function greet(name,callback){
         console.log(`Hello ${name}`)
         callback(); // calling back function
@@ -8,6 +9,7 @@ function Callback(){
     //     sayBye(); // passing argument
     //   }, 2000);
     }
+    
     function sayBye(){
         console.log("good day,Good bye");
     }

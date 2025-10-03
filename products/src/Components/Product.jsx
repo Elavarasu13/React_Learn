@@ -21,8 +21,6 @@ function Product(){
         id = {user.id}
         name={user.name}/>
     ))} 
-    
-
     </div> 
     )
 }

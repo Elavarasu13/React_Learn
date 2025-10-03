@@ -7,6 +7,9 @@ import ColorPciker from './Components/ColorPicker.jsx'
 import TodoList from './Components/TodoList.jsx'
 import Spread from './Components/Spread.jsx'
 import Callback from './Components/Callback.jsx'
+import Scope from './Components/Scope.jsx'
+import Block from './Components/Block.jsx'
+import Closure from './Components/Closure.jsx'
 
 
 function App() {
@@ -19,7 +22,10 @@ function App() {
     {/* <ColorPciker/> */}
     {/* <TodoList/> */}
     {/* <Spread/> */}
-    <Callback/>
+    {/* <Callback/> */}
+    {/* <Scope/> */}
+    {/* <Block/> */}
+    <Closure/>
    </>
 
   )
